@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyse SWOT - IA en Marketing & Publicité</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 p-8">
+    <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-8">
+            <h1 class="text-4xl font-bold text-gray-900 mb-2">Analyse SWOT</h1>
+            <p class="text-xl text-gray-600">Intelligence Artificielle en Marketing & Publicité</p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <!-- STRENGTHS -->
+            <div class="bg-emerald-50 border-emerald-200 border-2 rounded-lg p-6 h-full flex flex-col">
+                <div class="flex items-center gap-3 mb-4">
+                    <svg class="text-emerald-600 w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                    </svg>
+                    <div>
+                        <h2 class="text-emerald-600 text-xl font-bold">Strengths</h2>
+                        <p class="text-sm text-gray-600">Forces</p>
+                    </div>
+                </div>
+                
+                <div class="space-y-4 flex-1">
+                    <div>
+                        <h3 class="font-semibold text-gray-800 mb-2">Efficacité Opérationnelle</h3>
+                        <ul class="space-y-1.5">
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-emerald-600 mr-2 mt-1">•</span>
+                                <span>Automatisation des tâches à faible valeur ajoutée</span>
+                            </li>
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-emerald-600 mr-2 mt-1">•</span>
+                                <span>Réduction notable des coûts et du temps de production</span>
+                            </li>
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-emerald-600 mr-2 mt-1">•</span>
+                                <span>Amélioration de la productivité des équipes</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3 class="font-semibold text-gray-800 mb-2">Performance Marketing</h3>
+                        <ul class="space-y-1.5">
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-emerald-600 mr-2 mt-1">•</span>
+                                <span>Optimisation du ROI publicitaire et des taux de conversion</span>
+                            </li>
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-emerald-600 mr-2 mt-1">•</span>
+                                <span>Réduction du coût d'acquisition client (CAC)</span>
+                            </li>
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-emerald-600 mr-2 mt-1">•</span>
+                                <span>Meilleure allocation budgétaire grâce à la data</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3 class="font-semibold text-gray-800 mb-2">Scalabilité</h3>
+                        <ul class="space-y-1.5">
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-emerald-600 mr-2 mt-1">•</span>
+                                <span>Gestion aisée de volumes massifs de campagnes</span>
+                            </li>
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-emerald-600 mr-2 mt-1">•</span>
+                                <span>Personnalisation à grande échelle</span>
+                            </li>
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-emerald-600 mr-2 mt-1">•</span>
+                                <span>Expansion fluide sur de nouveaux marchés</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3 class="font-semibold text-gray-800 mb-2">Innovation</h3>
+                        <ul class="space-y-1.5">
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-emerald-600 mr-2 mt-1">•</span>
+                                <span>Ouverture à de nouveaux formats et expériences immersives</span>
+                            </li>
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-emerald-600 mr-2 mt-1">•</span>
+                                <span>Accélération du cycle créatif</span>
+                            </li>
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-emerald-600 mr-2 mt-1">•</span>
+                                <span>Valorisation de la différenciation et de la créativité</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- WEAKNESSES -->
+            <div class="bg-amber-50 border-amber-200 border-2 rounded-lg p-6 h-full flex flex-col">
+                <div class="flex items-center gap-3 mb-4">
+                    <svg class="text-amber-600 w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
+                    </svg>
+                    <div>
+                        <h2 class="text-amber-600 text-xl font-bold">Weaknesses</h2>
+                        <p class="text-sm text-gray-600">Faiblesses</p>
+                    </div>
+                </div>
+                
+                <div class="space-y-4 flex-1">
+                    <div>
+                        <h3 class="font-semibold text-gray-800 mb-2">Techniques</h3>
+                        <ul class="space-y-1.5">
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-amber-600 mr-2 mt-1">•</span>
+                                <span>Hallucinations et outputs inconsistants</span>
+                            </li>
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-amber-600 mr-2 mt-1">•</span>
+                                <span>Besoin de supervision humaine continue</span>
+                            </li>
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-amber-600 mr-2 mt-1">•</span>
+                                <span>Difficulté d'intégration dans les systèmes existants</span>
+                            </li>
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-amber-600 mr-2 mt-1">•</span>
+                                <span>Coûts computationnels élevés et dépendance au cloud</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3 class="font-semibold text-gray-800 mb-2">Business</h3>
+                        <ul class="space-y-1.5">
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-amber-600 mr-2 mt-1">•</span>
+                                <span>Investissements initiaux et coûts récurrents importants</span>
+                            </li>
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-amber-600 mr-2 mt-1">•</span>
+                                <span>Nécessité de compétences techniques spécialisées</span>
+                            </li>
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-amber-600 mr-2 mt-1">•</span>
+                                <span>Temps d'apprentissage et adoption lente</span>
+                            </li>
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-amber-600 mr-2 mt-1">•</span>
+                                <span>ROI parfois difficile à prouver à court terme</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- OPPORTUNITIES -->
+            <div class="bg-blue-50 border-blue-200 border-2 rounded-lg p-6 h-full flex flex-col">
+                <div class="flex items-center gap-3 mb-4">
+                    <svg class="text-blue-600 w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <div>
+                        <h2 class="text-blue-600 text-xl font-bold">Opportunities</h2>
+                        <p class="text-sm text-gray-600">Opportunités</p>
+                    </div>
+                </div>
+                
+                <div class="space-y-4 flex-1">
+                    <div>
+                        <h3 class="font-semibold text-gray-800 mb-2">Pour les Créatifs</h3>
+                        <ul class="space-y-1.5">
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-blue-600 mr-2 mt-1">•</span>
+                                <span>Recentrage sur la stratégie, la narration et le concept</span>
+                            </li>
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-blue-600 mr-2 mt-1">•</span>
+                                <span>Délégation des tâches répétitives à l'IA</span>
+                            </li>
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-blue-600 mr-2 mt-1">•</span>
+                                <span>Augmentation du potentiel d'innovation</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3 class="font-semibold text-gray-800 mb-2">Pour les Media Buyers</h3>
+                        <ul class="space-y-1.5">
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-blue-600 mr-2 mt-1">•</span>
+                                <span>Automatisation des optimisations</span>
+                            </li>
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-blue-600 mr-2 mt-1">•</span>
+                                <span>Décisions et ajustements data-driven</span>
+                            </li>
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-blue-600 mr-2 mt-1">•</span>
+                                <span>Gain d'agilité dans l'achat média</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3 class="font-semibold text-gray-800 mb-2">Pour les Marques</h3>
+                        <ul class="space-y-1.5">
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-blue-600 mr-2 mt-1">•</span>
+                                <span>Personnalisation à moindre coût</span>
+                            </li>
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-blue-600 mr-2 mt-1">•</span>
+                                <span>Accès facilité à une compréhension client fine</span>
+                            </li>
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-blue-600 mr-2 mt-1">•</span>
+                                <span>Capacité d'adaptation rapide aux tendances et marchés</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- THREATS -->
+            <div class="bg-rose-50 border-rose-200 border-2 rounded-lg p-6 h-full flex flex-col">
+                <div class="flex items-center gap-3 mb-4">
+                    <svg class="text-rose-600 w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.618 5.984A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016zM12 9v2m0 4h.01"></path>
+                    </svg>
+                    <div>
+                        <h2 class="text-rose-600 text-xl font-bold">Threats</h2>
+                        <p class="text-sm text-gray-600">Menaces</p>
+                    </div>
+                </div>
+                
+                <div class="space-y-4 flex-1">
+                    <div>
+                        <h3 class="font-semibold text-gray-800 mb-2">Dépendance et Verrouillage</h3>
+                        <ul class="space-y-1.5">
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-rose-600 mr-2 mt-1">•</span>
+                                <span>Risque de lock-in avec certains fournisseurs</span>
+                            </li>
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-rose-600 mr-2 mt-1">•</span>
+                                <span>Vulnérabilité face à des changements de pricing ou de politique d'accès</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3 class="font-semibold text-gray-800 mb-2">Légal et Éthique</h3>
+                        <ul class="space-y-1.5">
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-rose-600 mr-2 mt-1">•</span>
+                                <span>Incertitude sur la propriété intellectuelle des créations IA</span>
+                            </li>
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-rose-600 mr-2 mt-1">•</span>
+                                <span>Risques de biais algorithmiques et de discrimination</span>
+                            </li>
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-rose-600 mr-2 mt-1">•</span>
+                                <span>Contraintes croissantes sur la transparence (disclosure, watermarking)</span>
+                            </li>
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-rose-600 mr-2 mt-1">•</span>
+                                <span>Sensibilité accrue des utilisateurs à la vie privée (RGPD, consentement)</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3 class="font-semibold text-gray-800 mb-2">Crédibilité et Confiance</h3>
+                        <ul class="space-y-1.5">
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-rose-600 mr-2 mt-1">•</span>
+                                <span>Méfiance des consommateurs envers les contenus générés par IA</span>
+                            </li>
+                            <li class="text-sm text-gray-700 flex items-start">
+                                <span class="text-rose-600 mr-2 mt-1">•</span>
+                                <span>Nécessité d'une traçabilité et d'une supervision éthique solides</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Legend -->
+        <div class="mt-8 text-center">
+            <div class="inline-flex items-center gap-6 bg-white rounded-lg px-6 py-3 shadow-sm border border-gray-200">
+                <div class="flex items-center gap-2">
+                    <div class="w-3 h-3 rounded-full bg-emerald-500"></div>
+                    <span class="text-sm text-gray-600">Interne positif</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <div class="w-3 h-3 rounded-full bg-amber-500"></div>
+                    <span class="text-sm text-gray-600">Interne négatif</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <div class="w-3 h-3 rounded-full bg-blue-500"></div>
+                    <span class="text-sm text-gray-600">Externe positif</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <div class="w-3 h-3 rounded-full bg-rose-500"></div>
+                    <span class="text-sm text-gray-600">Externe négatif</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
